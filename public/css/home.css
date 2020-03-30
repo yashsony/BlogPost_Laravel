@@ -1,0 +1,377 @@
+
+
+
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+
+
+.animateText1
+        {
+            animation: a1 2s ease-in-out;
+        }
+
+        @keyframes a1 
+        {
+            0%
+            {
+                letter-spacing: 20px;
+            }
+
+            100%
+            {
+                letter-spacing: 7px;
+            }
+        }
+
+        .homeStyling
+        {
+            background-color: #03ff7f; 
+            letter-spacing: 1px;
+            border-radius: 20px;
+            color:black;
+        }
+
+        .homeStyling:hover
+        {           
+            box-shadow: 0px 0px 15px #03ff7f;
+            color:black;            
+            transition: box-shadow 1s ease-in-out;
+        }
+
+        .tabStyling:hover
+        {
+            border: 0px solid black;
+            border-bottom: 2px solid black;
+            padding-top: 1px;        
+        }
+
+        .searchGlow:hover
+        {
+            text-shadow:0px 0px 20px #03ff7f;
+            transition: text-shadow 1s ease-in-out;
+        }
+
+        .searchBox:focus
+        {
+            background:red;
+        }
+
+        .animateNavBar
+        {
+            animation: a2 1s ease-in-out;
+        }
+
+        @keyframes a2 
+        {
+            0%
+            {
+                transform: translateY(-30px);
+                opacity: 0.5;
+            }
+
+            100%
+            {
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
+
+        .animateLogo
+        {
+            animation: a4 1s ease-in-out;
+        }
+
+        @keyframes a4
+        {
+            0%
+            {
+                transform: translateX(-40px);
+                opacity: 0.5;
+            }
+
+            100%
+            {
+                transform: translateX(0px);
+                opacity: 1;
+            }
+        }
+
+        .animateLogoInfo
+        {
+            animation: a5 1s ease-in-out;
+        }
+
+        @keyframes a5
+        {
+            0%
+            {
+                transform: translateX(40px);
+                opacity: 0.5;
+            }
+
+            100%
+            {
+                transform: translateX(0px);
+                opacity: 1;
+            }
+        }
+
+       
+
+        .sellBox
+        {    
+            border-radius: 30px;
+            background-color:lightgrey;
+            display: inline-block;
+            overflow:hidden;
+        }
+        
+      .feature{
+          display: block;
+      }
+
+        .buyBox
+        {
+            border-radius: 30px;
+            background-color:#303030;
+            overflow:hidden;
+        }
+
+        .sellHover
+        {
+            font-size:60px; 
+            font-weight: 700;
+            transform:translate(0px,8px);
+        }
+
+        .sellHover2
+        {
+            font-size:30px;
+            line-height: 0px;
+            font-weight: 400;
+            transform:translate(0px,3px);
+        }
+
+        .buyHover
+        {
+            color:white;
+            font-size:60px; 
+            font-weight: 700;
+            transform:translate(0px,10px);
+        }
+
+        .buyHover2
+        {
+            color:white;
+            font-size:30px;
+            line-height: 0px;
+            font-weight: 400;
+            transform:translate(0px,5px);
+        }
+
+        .zoom
+        {
+            transform: scale(1.2);
+        }
+
+        .sbHover
+        {
+            background:#03ff7f;
+            box-shadow:0px 0px 20px #03ff7f;
+            transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;          
+        }
+
+        .img1Hover
+        {
+            z-index:0;
+            height:230px;
+            width:210px;
+            transition: height 0.3s ease-in-out;
+            opacity:0.15;
+            filter:grayscale(100%);
+        }
+
+        .img1specs
+        {
+            z-index:0;
+            height:200px; 
+            width:210px;
+            opacity:0.15;
+            transition: height 0.3s ease-in-out;
+            filter:grayscale(100%);
+        }
+
+        .img2specs
+        {
+            z-index:0; 
+            height:180px; 
+            width:190px; 
+            opacity:0.1; 
+            filter:invert(100%);
+        }
+
+        .dashbox
+        {
+            background-color:lightgray;
+            border-radius:25px;
+        }
+
+        .dashtext
+        {
+            font-size:70px; 
+            font-weight: 500; 
+            transform:translate(0px,5px)
+        }
+
+        .buttonDiscover
+        {
+            background-image:linear-gradient(to right,#03ff7f,#03AA7E,pink,white,#03ff7f,#03AA7E) ;
+            background-size:800%;
+            height: 50px;
+            border:0px solid;
+            border-radius:25px;
+            width:200px;
+            font-size:20px;
+            font-weight:500;
+            letter-spacing: 2px;
+        }
+
+        .buttonDiscover:focus
+        {
+            outline:none;
+        }
+
+        .buttonDiscover:hover
+        {
+            animation: a3 4s ease-in-out infinite;
+        }
+
+        @keyframes a3
+        {
+            0%
+            {
+                background-position:0%;
+                box-shadow:0px 0px 20px #03ff7f;
+            }
+            50%
+            {
+                background-position:50%;
+                box-shadow:0px 0px 20px white;
+            }
+            100%
+            {
+                background-position:100%;
+                box-shadow:0px 0px 20px #03ff7f;
+            }
+        }
+
+        .loginBox
+        {
+            border:0px solid black;
+            
+            height:50px;
+            border-radius:30px;
+            
+            background:rgba(0, 0,0, 0.7);
+            font-size:18px;
+            color:white;
+            text-indent: 20px;
+        }
+
+        
+
+        .loginBox1:hover
+        {
+            
+            box-shadow:0px 0px 10px coral;
+        }
+
+        .loginBox1:focus::placeholder
+        {
+            color: black;
+            opacity: 0.6;       
+        }
+
+        .loginBox:focus
+        {
+            outline:none;
+        }
+
+        .loginBox::placeholder
+        { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: white;
+            opacity: 0.6;
+        }
+
+        .loginBox::selection
+        {
+            background: white;
+            color:black;
+        }
+
+        
+
+        .loginBox2:hover
+        {            
+            box-shadow:0px 0px 10px coral;
+        }
+
+        .loginBox2:focus::placeholder
+        {
+            color: black;
+            opacity: 0.6;       
+        }
+
+
+
+        .buttonLogin
+        {
+            background-image:linear-gradient(to right,orange,coral) ;
+            background-size:100%;
+            height: 50px;
+            border:0px solid;
+            border-radius:25px;
+            width:150px;
+            font-size:20px;
+            font-weight:500;
+            letter-spacing: 2px;
+        }
+
+        .buttonLogin:focus
+        {
+            outline:none;
+        }
+
+        .buttonLogin:hover
+        {
+            box-shadow:0px 0px 20px coral;
+        }
+
+        
