@@ -11,7 +11,7 @@ class welcomeController extends Controller
     public function index() {
         $userCount = User::count();
         $bookCount= task::count();
-        return view('welcome', compact('userCount','bookCount'));
+        return view('welcome', compact('userCount','PostCount'));
   }
 
 }

@@ -49,7 +49,7 @@
 <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/tasks') }}">
-                    Old books.com
+                    Blog POst.com
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -107,8 +107,8 @@
                    <img src='Images/book.png' style='height:100px; width:100px ;margin-top:-20px;'>
                               <div class="text-center"> 
                               <br>                                    
-                                <p><b>Book_title : </b> {{$task->Book_title}} </p>
-                                <p><b>Book Author : </b> {{$task->Book_author}}" </p>
+                                <p><b>Book_title : </b> {{$task->Post_title}} </p>
+                                <p><b>Book Author : </b> {{$task->Post_author}}" </p>
                                 <p><b>Price : </b> Rs. {{ $task->price }} </p>
                                 <p><b>Contact_no: </b> +91 {{ $task->phone_no }}</p>  
                             </div>

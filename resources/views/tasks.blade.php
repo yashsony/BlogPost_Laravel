@@ -16,7 +16,7 @@
 
                                 <div id="sbText" style="position: absolute; width:100%; color:black;  height:100%">
                                     <p align="center" style="" class="sellHover mt-lg-4 mt-md-3 mt-sm-4 mt-3" id="sText1">Sell
-                                    <p align="center" style="" class="sellHover2" id="sText2">your book
+                                    <p align="center" style="" class="sellHover2" id="sText2">your posts
                                 </div>
 
 
@@ -34,7 +34,7 @@
 
                             <div id="bbText" style="position: absolute; width:100%; color:black;  height:100%">
                                 <p align="center" style="" class="buyHover mt-lg-4 mt-md-3 mt-sm-4 mt-3" id="bText1">Buy
-                                <p align="center" style="" class="buyHover2" id="bText2">used book
+                                <p align="center" style="" class="buyHover2" id="bText2">posts
                             </div>
 
 
@@ -58,21 +58,21 @@
                     <div class="col-4 p-lg-3 p-sm-2 p-2 p-md-2">
                         <div id="db1" class="dashbox w-100">
                             <p id="dt1" style="color:black; font-weight:500" class="text-center">{{ $taskCount }}
-                            <p id="dt2" style="color:black; transform:translate(0px,-20px)" class="text-center">Books Added                             
+                            <p id="dt2" style="color:black; transform:translate(0px,-20px)" class="text-center">Posts Added                             
                         </div>
                     </div>
 
                     <div class="col-4 p-lg-3 p-sm-2 p-2 p-md-2">
                         <div id="db2" class="dashbox w-100">
                             <p id="dt3" style="color:black; font-weight:500" class="text-center">{{ $bookCount }}
-                            <p id="dt4" style="color:black; transform:translate(0px,-20px)" class="text-center">Total Books                            
+                            <p id="dt4" style="color:black; transform:translate(0px,-20px)" class="text-center">Total posts                            
                         </div>
                     </div>
 
                     <div class="col-4 p-lg-3 p-sm-2 p-2 p-md-2">
                         <div id="db3" class="dashbox w-100">
                             <p id="dt5" style="color:black; font-weight:500" class="text-center">00
-                            <p id="dt6" style="color:black; transform:translate(0px,-20px)" class="text-center">Books Sold                            
+                            <p id="dt6" style="color:black; transform:translate(0px,-20px)" class="text-center">posts Sold                            
                         </div>
                     </div>
                 </div>
@@ -82,23 +82,23 @@
     </div>
     <div class="container" style="border:0px solid black;margin-top:10px ">
 <div class=" col-12">
-                <div class="card-header  text-center" style="font-size:20px; font-weight:700; letter-spacing:2px; color:black;background:darkgray">Your Book Details</div>
+                <div class="card-header  text-center" style="font-size:20px; font-weight:700; letter-spacing:2px; color:black;background:darkgray">Your Post Details</div>
 
                 <div class="card-body ">
                 
                    <table class="table table-striped">
                        <tr style="font-size:15px; font-weight:300; letter-spacing:2px; color:black;background:lightgray">
-                       <th>Book_title</th>
-                       <th>Book Author</th>
+                       <th>Post_title</th>
+                       <th>POst Author</th>
                        <th>Price</th>
                         </tr>
                         @foreach ($tasks as $task)
                            <tr style="font-size:15px; font-weight:500; letter-spacing:2px;color:#111111;">
                            <td style="border:0px solid black">
-                               {{$task->Book_title}}
+                               {{$task->post_title}}
                                </td>
                                <td class="" style="">
-                               {{$task->Book_author}}
+                               {{$task->Post_author}}
                                </td>
                                
                                <td class="" style="border:0px solid black">

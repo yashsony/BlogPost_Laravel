@@ -26,7 +26,7 @@
                 <div class="col-12">                
                         <div class="text-center p-3 animateText1" style="font-size:30px; letter-spacing: 7px;
                         font-weight:450;">
-                            OLD BOOK
+                            BLOG POST
                             
                         </div>
                         <hr style="height:1px; transform:translate(0px,-10px); background-color:grey; opacity: 0.2;box-shadow: 0px 0px 2px grey;">
@@ -72,9 +72,8 @@
 
                         <div id="lb1" class="col-lg-6 col-md-6 col-sm-12 col-12  text-left my-5 animateLogoInfo">
                             <p class="text-light text-sm-center text-lg-left text-md-left text-center" id="lb5" style="font-size:60px; line-height:60px; font-weight:600; letter-spacing:1px">What is Old Book</p>
-                            <p class="text-justify pl-2 " style="font-size:19px; color:lightgrey" id="lb6"><br>Old Book is a platform where you can sell your old books
-                                at your own value and can buy used or new books at rates
-                                cheaper than market.<br>
+                            <p class="text-justify pl-2 " style="font-size:19px; color:lightgrey" id="lb6"><br>Blog post is a platform where you can sell your post
+                                at your own value and can buy used post <br>
 
                             <div class="text-sm-center text-lg-left text-md-left text-center"><input id="lb4" type="button" value="Discover" class="mt-5 buttonDiscover"></div>
                         </div>
@@ -107,7 +106,7 @@
 
                                 <div id="sbText" style="position: absolute; width:100%; color:black;  height:100%">
                                     <p align="center" style="" class="sellHover mt-lg-4 mt-md-3 mt-sm-4 mt-3" id="sText1">Sell
-                                    <p align="center" style="" class="sellHover2" id="sText2">your book
+                                    <p align="center" style="" class="sellHover2" id="sText2">your post
                                 </div>
 
 
@@ -124,7 +123,7 @@
 
                             <div id="bbText" style="position: absolute; width:100%; color:black;  height:100%">
                                 <p align="center" style="" class="buyHover mt-lg-4 mt-md-3 mt-sm-4 mt-3" id="bText1">Buy
-                                <p align="center" style="" class="buyHover2" id="bText2">used book
+                                <p align="center" style="" class="buyHover2" id="bText2">used posts
                             </div>
 
 
@@ -153,14 +152,14 @@
                     <div class="col-4 p-lg-3 p-sm-2 p-2 p-md-2">
                         <div id="db2" class="dashbox w-100">
                             <p id="dt3" style="color:black; font-weight:500" class="text-center">{{ $bookCount }}
-                            <p id="dt4" style="color:black; transform:translate(0px,-20px)" class="text-center">Total Books                            
+                            <p id="dt4" style="color:black; transform:translate(0px,-20px)" class="text-center">Total Posts                            
                         </div>
                     </div>
 
                     <div class="col-4 p-lg-3 p-sm-2 p-2 p-md-2">
                         <div id="db3" class="dashbox w-100">
                             <p id="dt5" style="color:black; font-weight:500" class="text-center">00
-                            <p id="dt6" style="color:black; transform:translate(0px,-20px)" class="text-center">Books Sold                            
+                            <p id="dt6" style="color:black; transform:translate(0px,-20px)" class="text-center">Posts Sold                            
                         </div>
                     </div>
                 </div>
@@ -177,14 +176,14 @@
     <div class="container" style="background:white">
         <div class="row">
             <div class="col-12 mt-5" style="background:rgba(00,255,100,0.1)">
-                <p class="mt-lg-4 mt-md-4 mt-2 mb-4" style="font-size:20px; font-weight:500; letter-spacing:1px; color:black;" id="tt1">OLD BOOK IS ALL ABOUT
+                <p class="mt-lg-4 mt-md-4 mt-2 mb-4" style="font-size:20px; font-weight:500; letter-spacing:1px; color:black;" id="tt1">BLog Post IS ALL ABOUT
                 <hr style="height:1px;  background-color:grey; opacity: 0.2;box-shadow: 0px 0px 2px grey;">
                 
                 <ul style="font-size:17px">
-                <li class="text-justify"><b>Old Book</b> is a platform which would enable users to sell or buy old or used books
+                <li class="text-justify"><b>Blog Post</b> is a platform which would enable users to sell or buy Posts
                 at low prices than market and is especially focused on Students and Book Readers.</li><br>
                 <li class="text-justify">Best thing about this platform is that, it is useful for any age group and for the persons who loves to
-                read books. In coming time, this platform will be further extended.</li></ul>
+                read blogs. In coming time, this platform will be further extended.</li></ul>
             </div>
         </div>
 

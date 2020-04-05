@@ -19,7 +19,7 @@
 <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/tasks') }}">
-                    Old books.com
+                    Blog Post.com
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -77,17 +77,17 @@
             @endif
 
             <div class="card card-new-task">
-                <div class="card-header">Book Details</div>
+                <div class="card-header">Post Details</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('buy.store') }}">
                         @csrf
                         <div class="form-group">
-                            <label for="Book_title">Book Name</label>
+                            <label for="Book_title">Post Name</label>
                             <input id="Book_title" name="Book_title" type="text" maxlength="255" class="form-control{{ $errors->has('Book_title') ? ' is-invalid' : '' }}" autocomplete="off" />
-                            @if ($errors->has('Book_title'))
+                            @if ($errors->has('Post_title'))
                                 <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $errors->first('Book_title') }}</strong>
+                                    <strong>{{ $errors->first('Post_title') }}</strong>
                                 </span>
                             @endif
                         </div>
@@ -96,7 +96,7 @@
                             <input id="Book_author" name="Book_author" type="text" maxlength="255" class="form-control{{ $errors->has('Book_author') ? ' is-invalid' : '' }}" autocomplete="off" />
                             @if ($errors->has('Book_author'))
                                 <span class="invalid-feedback" role="alert">
-                                    <strong>{{ $errors->first('Book_author') }}</strong>
+                                    <strong>{{ $errors->first('Post_author') }}</strong>
                                 </span>
                             @endif
                         </div>
@@ -118,7 +118,7 @@
                                 </span>
                             @endif
                         </div>
-                        <button type="submit" class="btn btn-primary">Add a Book</button>
+                        <button type="submit" class="btn btn-primary">Add a Post</button>
                     </form>
                 </div>
             </div>
